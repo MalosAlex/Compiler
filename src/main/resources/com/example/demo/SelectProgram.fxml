@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SelectProgramController">
+   <children>
+       <ListView fx:id="prgListView" onMouseClicked="#handleDoubleClick" prefHeight="500.0" prefWidth="1000.0">
+       </ListView>
+
+   </children>
+</HBox>
